@@ -1,0 +1,73 @@
+html {
+    font-size: 0.9rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.4rem;
+    }
+}
+
+.center-block {
+    text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+    .Content-Center{
+        width: 30%; 
+        margin: 0 auto;
+        top: 50%;
+        -ms-transform: translateY(30%);
+        transform: translateY(30%);
+    }
+    
+    .Content-Result{
+        width: 30%; 
+        margin: 0 auto;
+        top: 50%;
+        -ms-transform: translateY(130%);
+        transform: translateY(130%);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Content-Center{
+        width: 80%; 
+        margin: 0 auto;
+        top: 30%;
+        -ms-transform: translateY(20%);
+        transform: translateY(20%);
+    }
+
+    .Content-Result{
+        width: 80%; 
+        margin: 0 auto;
+        top: 70%;
+        -ms-transform: translateY(90%);
+        transform: translateY(90%);
+    }
+  
+  }
+
+/* Set black background color, white text and some padding */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}

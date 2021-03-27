@@ -1,0 +1,83 @@
+html {
+    font-size: 0.9rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.4rem;
+    }
+}
+
+
+
+ hr{
+     color:white;
+ }
+
+ pre {
+     background-color: white;
+ }
+
+ 
+ /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+ .row.content {height: 93vh;}
+        
+/* Set gray background color and 100% height */
+.sidenav {
+    background-color: #f1f1f1;
+    height: 93vh;
+}
+
+.Content {
+    background-image: url("../Images/background.jpeg");;
+    height: 93vh;
+    border: 1px solid #000;
+    color: white;
+}
+
+.ShadowFont{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+        
+/* Set black background color, white text and some padding */
+#Foot{
+    width: 100%;
+}
+
+/* Table style*/
+.Dinamic-Content {
+    height: 100%;
+}
+
+@media screen and (min-width: 601px) {
+  #Page {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #Page {
+    font-size: 15px;
+  }
+
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height: auto;} 
+    }
