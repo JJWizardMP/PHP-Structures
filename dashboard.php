@@ -88,7 +88,8 @@
                         </p>
                         <p class="ShadowFont text-justify">
                             Esta web fue construida por Joan de Jesús Méndez Pool
-                            (<i>160300102</i>) y Uziel Torres Valera (<i>170300150</i>) 
+                            (<i>160300102</i>), Karen Stephanie Borraz Torres(<i>190300624</i>) 
+                            y Uziel Torres Valera (<i>170300150</i>) 
                             como proyecto del segundo parcial para la materia 
                             de <i>ID0265 Programación Web</i>.
                         </p>
